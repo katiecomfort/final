@@ -1,0 +1,138 @@
+
+body {
+
+  margin: 0;
+  background-color: black;
+  color: white;
+  padding-bottom: 200px;
+
+}
+
+img {
+  width: 400px;
+  height: 400px;
+  padding-top: 20px;
+}
+iframe{
+
+  position: absolute;
+  top:0;
+  left:0;
+  
+
+}
+h2 {
+  margin-top: 25px;
+  text-align: center;
+  border-style: solid;
+  font-family: futura;
+  font-size: 80px;
+  background: pink;
+  text: white;
+
+}
+
+p {
+
+  text-align: left;
+  font-family: baskerville;
+  font-size: 20px;
+  color: black;
+  padding: 20px;
+
+}
+
+.titlecard {
+  background-color: pink
+
+}
+
+.nineteen {
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 20px;
+}
+
+.decade {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+
+}
+
+.maintext {
+  background-color: white;
+  color: black;
+}
+
+blockquote {
+  font-style: bold;
+  color: pink;
+  background: black;
+  border-style: none;
+  font-family: Baskerville;
+  font-size: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 40px;
+
+
+
+}
+
+.bgimage {
+  width:100%;
+  height:1000px;
+  background: url('finalbanner.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+
+}
+
+.bgimage h4 {
+  color:pink;
+  text-shadow:2px 2px #333;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 80px;
+  padding-bottom: 40px;
+}
+
+.bgimage h5 {
+  color:white;
+  text-transform: capitalize;
+  text-align: center;
+
+}
+
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 80px;
+  background-color: black;
+  margin: 2px 2px 2px 2px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.albumcover {
+  display: center;
+
+}
+
+.row {
+  justify-content: center;
+
+}
